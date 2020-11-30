@@ -17,6 +17,6 @@
 $(document).ready(function () {
   $('#stat_table').dataTable({
     'pageLength': 25,
-    'order': [[ 1, 'desc' ]]
+    'order': [[ 4, 'desc' ]]
   }); 
 });
