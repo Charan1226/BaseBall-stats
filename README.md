@@ -1,24 +1,28 @@
-# README
+# Baseball Stats
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Prerequisites:
 
-Things you may want to cover:
+* Ruby version - 2.5.3
+* Rails - 5.2.4
 
-* Ruby version
+##### Gem installation:
+$ bundle install
 
-* System dependencies
+##### DB Creation:
+$ rails db:create
 
-* Configuration
+##### DB Migration:
+$ rails db:migrate
 
-* Database creation
+##### Load sample Data:
+$ rails db:seed
 
-* Database initialization
+##### Above Commands together:
+$ rails db:reset
 
-* How to run the test suite
+##### To Start Server:
+$ rails s
 
-* Services (job queues, cache servers, search engines, etc.)
+##### To Start Console:
+$ rails c
 
-* Deployment instructions
-
-* ...

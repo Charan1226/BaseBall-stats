@@ -22,8 +22,9 @@ TEAMS = { 'National League' => { 'East' => ['Atlanta', 'Florida', 'Montreal',
 LEAGUE = ['National League', 'American League']
 PARTS = ['East', 'West', 'Central']
 
-100.times do
+1000.times do
   p = Player.new(league_name: LEAGUE.sample, division_name: PARTS.sample)
+  p.year = (1930..2005).to_a.sample
   p.team_city = p.team_name = TEAMS[p.league_name][p.division_name].sample
   p.given_name = Faker::Name.first_name
   p.sur_name = Faker::Name.last_name

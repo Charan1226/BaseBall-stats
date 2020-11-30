@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2020_11_25_075932) do
     t.string "given_name"
     t.string "position"
     t.string "throws"
+    t.integer "year"
     t.integer "games"
     t.integer "games_started"
     t.integer "at_bats"
